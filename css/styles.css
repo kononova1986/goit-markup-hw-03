@@ -133,7 +133,7 @@ a {
 /*Банер*/
 .banner {
     display: flex;
-    padding: 188px 472px;
+    padding: 188px 0;
     background: #2E2F42;
 }
 .container-banner{
@@ -144,7 +144,7 @@ a {
 }
 
 .banner-title {
-    width: 496px;
+    max-width: 496px;
     color: #FFF;
     text-align: center;
     font-size: 56px;
@@ -180,7 +180,7 @@ a {
 .soft-skills {
     padding: 120px 0; 
 }
- .visually-hidden{
+.visually-hidden{
     display: none;
     position: absolute;
     width: 1px;
@@ -191,7 +191,7 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
- }
+}
 .soft-skills-list {
     display: flex;
     gap: 24px;
@@ -291,18 +291,16 @@ padding: 32px 0;
     line-height: 1.11;
     background: #FFF;
     display: flex;
-    width: 360px;
-    height: 420px;
-    padding-bottom: 32px;
     flex-direction: column;
     align-items: flex-start;
     flex-shrink: 0;
-    border: 1px solid #E7E9FC;
     background:  #FFF;
-    border-top: none; 
 }
 .container-portfolio-item-title{
     padding: 32px 16px;
+    width: 360px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
 }
 
 .portfolio-item-title{
